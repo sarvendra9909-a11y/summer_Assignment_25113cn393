@@ -1,4 +1,4 @@
-//Fibonacci series in range.
+
 #include <stdio.h>
 int main()
 {
