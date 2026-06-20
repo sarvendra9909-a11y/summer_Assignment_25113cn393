@@ -1,6 +1,6 @@
 // WAP TO COUNT VOWELS AND CONSONANTS.
 #include <stdio.h>
-#include <strings.h>
+#include <string.h>
 int main()
 {
     char str[40];

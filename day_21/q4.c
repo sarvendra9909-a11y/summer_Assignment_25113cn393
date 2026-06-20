@@ -1,6 +1,6 @@
 // WAP TO CONVERT LOWERCASE TO UPPERCASE.
 #include <stdio.h>
-#include <strings.h>
+#include <string.h>
 int main()
 {  
     char str[50] ;

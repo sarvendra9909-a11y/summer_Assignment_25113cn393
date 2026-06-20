@@ -1,6 +1,6 @@
 // WAP TO REVERSE A STRING .
 #include <stdio.h>
-#include <strings.h>
+#include <string.h>
 int main()
 {
     char str[40];
@@ -13,7 +13,7 @@ int main()
         i++;
     }
     printf("Length of string is : %d\n",length);
-    for( int i=0 , j=length ; i<j ; i++ , j--){
+    for( int i=0 , j=length-1 ; i<j ; i++ , j--){
         char temp = str[i];
         str[i] = str[j];
         str[j] = temp;
